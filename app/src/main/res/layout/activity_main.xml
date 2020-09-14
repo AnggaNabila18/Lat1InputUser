@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="361dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="Menjumlahkan 2 Bilangan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="600dp"
+        android:text="Masukan Bilangan Pertama"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="550dp"
+        android:hint="Bilangan Pertama"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="450dp"
+        android:text="Masukan Bilangan Kedua"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400dp"
+        android:hint="Bilangan Kedua"/>
+
+    <Button
+        android:id="@+id/btnhasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hitung bilangan"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="80dp"
+        android:text="Hasil Penjumlahan"
+        android:textSize="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="180dp"
+        android:hint="Bilangan Kedua"/>
+
+</RelativeLayout>
